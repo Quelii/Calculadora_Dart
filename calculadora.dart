@@ -6,7 +6,7 @@ void main(){
   int op = 0;
   int r;
   }  
-
+//função normal
   soma(int a, int b){
     return a + b;
   }
@@ -19,6 +19,15 @@ void main(){
   mult(int a , int b){
     return a * b;
   }
+
+//função reduzida
+
+double soma(double a, double b) => a + b;
+double sub(double a, double b) => a - b;
+double div (double a, double b) => a / b;
+double mult (double a, double b) => a * b;
+
+//switch
   switch(op){
       1 case:
      int r = soma(a , b);
