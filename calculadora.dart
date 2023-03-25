@@ -1,6 +1,7 @@
 import'Dart:io';
 void main(){
-
+  
+//declaração de variavéis 
   int a = 2;
   int b = 4;
   int op = 0;
@@ -26,6 +27,11 @@ double soma(double a, double b) => a + b;
 double sub(double a, double b) => a - b;
 double div (double a, double b) => a / b;
 double mult (double a, double b) => a * b;
+
+// Função operação
+void resultado(a , b, op, function op){
+operacao(a, b, op);
+}
 
 //switch
   switch(op){
